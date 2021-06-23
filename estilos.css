@@ -1,0 +1,184 @@
+* {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+body {
+    width: 60%;
+    height: 100vh;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    background-color: #fdcb6e;
+    height: 90px;
+}
+
+.logo-container {
+    width: 140px;
+    height: 45px;
+    background-color: #ffeaa7;
+    float: left;
+    margin-top: 23px;
+    margin-left: 20px;
+    display: inline-flex;
+    
+    
+}
+
+.logo-img {
+    width: 28px;
+    margin-left: 15px;
+    margin-top: 2px;
+    opacity: 100%;
+}
+
+.logo-text {
+    margin-left: 25px;
+    color: black;
+    border-style: solid;
+    border-width: thin;
+    margin-bottom: 5px;
+    margin-top: 7px;
+    border-bottom-width: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+/* BOTONES DE XARXES 
+He fet un de "social-final" per que es puguin afegir nous elements a la esquerra (copiant i enganxant els nous al html amb la mateixa class "social" i aquest "social-final" quedi estatic amb un marge dret fixat*/
+
+.social-final {
+    width: 30px;
+    height: 30px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    border-color: black;
+    float: right;
+    margin-right: 20px;
+    margin-left: 3px;
+    margin-top: 30px;
+}
+
+.insta {
+    width: 28px;
+}
+
+.face {
+    width: 28px;
+}
+
+.twitt {
+    width: 30px;
+}
+
+.social {
+    width: 30px;
+    height: 30px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    border-color: black;
+    float: right;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-top: 30px;
+}
+
+/* BARRA DE NAVEGACIÓN*/
+
+.nav-elem {
+    display: inline-flex;
+    width: 100%;
+    list-style: none;
+}
+
+.nav-elem li {
+    width: 20%;
+    height: 25px;
+    background-color: lightgrey;
+    color: black;
+    text-align: center;
+    margin-top: 12px;
+    padding-top: 5px;
+    margin-right: 1px;
+}
+
+/*DESTACADOS*/
+
+.destacats {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.art1 {
+    width: 33%;
+    height: 130px;
+    background-color: lightgrey;
+}
+
+.art2 {
+    width: 33%;
+    height: 130px;
+    background-color: grey;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.art3 {
+    width: 33%;
+    height: 130px;
+    background-color: lightgrey;
+}
+
+  
+/*ARTÍCULOS*/
+
+
+article {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+.lateral-der {
+    width: 20%;
+    height: 300px;
+    background-color: lightgrey;   
+}
+
+.main-article {
+    width: 60%;
+    height: 300px;
+    background-color: grey;
+}
+
+.lateral-izq {
+    width: 20%;
+    height: 300px;
+    background-color: lightgrey; 
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: grey;
+    height: 40px;
+}
+
+footer p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-size: 1em;
+    color: lightyellow;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 2px;
+}
