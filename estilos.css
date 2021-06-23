@@ -15,6 +15,12 @@ header {
     width: 100%;
     background-color: #fdcb6e;
     height: 90px;
+    
+}
+
+.titolppl {
+    text-align: center;
+    
 }
 
 .logo-container {
@@ -25,15 +31,15 @@ header {
     margin-top: 23px;
     margin-left: 20px;
     display: inline-flex;
-    
-    
+    border-style: solid;
+    border-width: thin;
+    border-radius: 4px;
 }
 
 .logo-img {
     width: 28px;
     margin-left: 15px;
     margin-top: 2px;
-    opacity: 100%;
 }
 
 .logo-text {
@@ -54,17 +60,34 @@ header {
 /* BOTONES DE XARXES 
 He fet un de "social-final" per que es puguin afegir nous elements a la esquerra (copiant i enganxant els nous al html amb la mateixa class "social" i aquest "social-final" quedi estatic amb un marge dret fixat*/
 
-.social-final {
+.social-insta {
     width: 30px;
     height: 30px;
-    background-color: lightgrey;
-    border-radius: 50%;
-    border-color: black;
     float: right;
     margin-right: 20px;
     margin-left: 3px;
     margin-top: 30px;
 }
+
+.social-face {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-top: 30px;
+}
+
+.social-twitter {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 5px;
+    margin-left: 3px;
+    margin-top: 27px;
+}
+
+/* LOGOS */
 
 .insta {
     width: 28px;
@@ -72,23 +95,15 @@ He fet un de "social-final" per que es puguin afegir nous elements a la esquerra
 
 .face {
     width: 28px;
+    
 }
 
 .twitt {
-    width: 30px;
+    width: 34px;
+
 }
 
-.social {
-    width: 30px;
-    height: 30px;
-    background-color: lightgrey;
-    border-radius: 50%;
-    border-color: black;
-    float: right;
-    margin-right: 3px;
-    margin-left: 3px;
-    margin-top: 30px;
-}
+
 
 /* BARRA DE NAVEGACIÓN*/
 
