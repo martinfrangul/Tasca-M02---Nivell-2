@@ -18,15 +18,12 @@ header {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 100% 55%;
-    
-
-    
 }
 
 .logo-container {
     width: 55px;
     height: 45px;
-    background-color: #ffeaa7;
+    background-color: rgba(245, 246, 250,0.6);
     float: left;
     margin-top: 23px;
     margin-left: 20px;
@@ -64,8 +61,8 @@ header {
     
 }
 
-/* BOTONES DE XARXES 
-He fet un de "social-final" per que es puguin afegir nous elements a la esquerra (copiant i enganxant els nous al html amb la mateixa class "social" i aquest "social-final" quedi estatic amb un marge dret fixat*/
+/* BOTONS DE XARXES*/
+
 
 .social-insta {
     width: 30px;
@@ -93,23 +90,6 @@ He fet un de "social-final" per que es puguin afegir nous elements a la esquerra
     margin-left: 3px;
     margin-top: 27px;
 }
-
-/* LOGOS */
-
-.insta {
-    width: 28px;
-}
-
-.face {
-    width: 28px;
-    
-}
-
-.twitt {
-    width: 34px;
-
-}
-
 
 
 /* BARRA DE NAVEGACIÓN*/
@@ -156,7 +136,9 @@ He fet un de "social-final" per que es puguin afegir nous elements a la esquerra
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
+    position: relative;
 }
+
 
 .art2 {
     width: 33%;
@@ -178,21 +160,39 @@ He fet un de "social-final" per que es puguin afegir nous elements a la esquerra
     background-repeat: no-repeat;
 }
 
+
+.tituloArt1 {
+    text-align: center;
+    font-size: 60px;
+    padding: 30px;
+    color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tituloArt2 {
+    text-align: center;
+    font-size: 60px;
+    padding: 30px;
+    color:rgb(143, 143, 143);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.tituloArt3 {
+    text-align: center;
+    font-size: 60px;
+    padding: 30px;
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .art1:hover {
-    opacity: 50%;
-
+    
+    
+    
 }
 
-.art2:hover {
-    opacity: 50%;
 
-}
-
-.art3:hover {
-    opacity: 50%;
-
-}
-  
 /*ARTÍCULOS*/
 
 
