@@ -127,6 +127,7 @@ header {
     display: inline-flex;
     width: 100%;
     margin-top: 12px;
+
 }
 
 .art1 {
@@ -136,7 +137,7 @@ header {
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    position: relative;
+    
 }
 
 
@@ -145,7 +146,7 @@ header {
     height: 130px;
     margin-left: 6px;
     margin-right: 6px;
-    background-image: url(./imatges/destacat2.jpg);
+    background-image: url(./imatges/destacat3.jpg);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -154,7 +155,7 @@ header {
 .art3 {
     width: 33%;
     height: 130px;
-    background-image: url(./imatges/destacat3.jpg);
+    background-image: url(./imatges/destacat2b.jpg);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -163,17 +164,18 @@ header {
 
 .tituloArt1 {
     text-align: center;
+    padding:30px;
     font-size: 60px;
-    padding: 30px;
-    color:black;
+    color: black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
 }
 
 .tituloArt2 {
     text-align: center;
     font-size: 60px;
     padding: 30px;
-    color:rgb(143, 143, 143);
+    color:white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
@@ -182,13 +184,13 @@ header {
     text-align: center;
     font-size: 60px;
     padding: 30px;
-    color:white;
+    color:black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.art1:hover {
+.art1:hover, .art2:hover, .art3:hover {
     
-    
+    opacity: 80%;
     
 }
 
