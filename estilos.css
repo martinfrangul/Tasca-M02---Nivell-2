@@ -126,6 +126,7 @@ header {
     display: inline-flex;
     width: 100%;
     margin-top: 12px;
+    position: relative;
 
 }
 
@@ -136,6 +137,7 @@ header {
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
+    
     
 }
 
@@ -162,7 +164,7 @@ header {
 .btn1 {
     color: black;
     background-color: whitesmoke;
-    margin-left: 100px;
+    margin-left: 40%;
     font-size: 0.8em;
     padding: 5px;
     border-style: solid;
@@ -170,6 +172,7 @@ header {
     border-width: 1px;
     text-decoration: none;
     cursor: pointer;
+    
 }
 
 .tituloArt {
@@ -177,7 +180,7 @@ header {
     padding-top:30px;
     font-size: 60px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   
+    
 }
 
 .art1:hover, .art2:hover, .art3:hover {
@@ -196,29 +199,48 @@ article {
     height: 450px;
     margin-top: 12px;
     margin-bottom: 15px;
+    position: relative;
+    
 }
 
 .lateral-der {
     width: 20%;
     height: 100%;
     background-color: lightgrey;   
+    position: relative;
 }
 
 .main-article {
     width: 60%;
     height: 100%;
-    background-color: grey;
+    position: relative;
+    display: inline-flex;
 }
 
 .lateral-izq {
     width: 20%;
     height: 100%;
     background-color: lightgrey; 
+    position: relative;
 }
 
-.main-article p {
+
+.mainArtImg {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    position: relative;
+}
+
+.mainArtText{
+    width: 95.4%;
     text-align: justify;
-    margin-top: 350px;
+    position: absolute;
+    background-color: rgba(71, 71, 135,0.6);
+    padding: 25px 10px;
+    color: white;
+    border-radius: 5px;
+    font-size: 21px;
 }
 
 /* FOOTER */
