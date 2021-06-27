@@ -133,12 +133,16 @@ header {
 .art1 {
     width: 33%;
     height: 130px;
-    background-image: url(./imatges/destacat1.jpg);
+    position: relative;
+}
+
+.imgArt1 {
+    
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    
-    
+    width: 100%;
+    height: 100%;
 }
 
 .art2 {
@@ -146,19 +150,31 @@ header {
     height: 130px;
     margin-left: 6px;
     margin-right: 6px;
-    background-image: url(./imatges/destacat3.jpg);
+    position: relative;
+}
+
+.imgArt2 {
+    
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
 }
 
 .art3 {
     width: 33%;
     height: 130px;
-    background-image: url(./imatges/destacat2b.jpg);
+    position: relative;
+}
+
+.imgArt3 {
+    
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
 }
 
 .btn1 {
@@ -172,20 +188,44 @@ header {
     border-width: 1px;
     text-decoration: none;
     cursor: pointer;
-    
+    position:absolute;
+    top: 98px;
+    right: 100px;
+
 }
 
-.tituloArt {
+.tituloArt1 {
     text-align: center;
-    padding-top:30px;
     font-size: 60px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    cursor: default;
 }
 
-.art1:hover, .art2:hover, .art3:hover {
+.tituloArt2 {
+    text-align: center;
+    font-size: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 30px;
+    left: 35px;
+}
+
+.tituloArt3 {
+    text-align: center;
+    font-size: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    cursor:default;
+}
+
+.imgArt1:hover, .imgArt2:hover, .imgArt3:hover {
     
-    opacity: 80%;
+    opacity: 50%;
     
 }
 
