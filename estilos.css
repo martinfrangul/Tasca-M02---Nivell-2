@@ -171,10 +171,9 @@ header {
 
 
 
-.btn1 {
+.btncontainer .button {
     color: black;
     background-color: whitesmoke;
-    margin-left: 40%;
     font-size: 0.8em;
     padding: 5px;
     border-style: solid;
@@ -188,6 +187,12 @@ header {
 
 }
 
+.btncontainer {
+    width: 100%;
+    top: 98px;
+    position: absolute ;
+    text-align: center;
+}
 
 
 .art:hover .imgArt, 
@@ -207,30 +212,57 @@ article {
     margin-top: 12px;
     margin-bottom: 15px;
     position: relative;
-    
-}
-
-.lateral-der {
-    width: 20%;
-    height: 100%;
-    background-color: lightgrey;   
-    position: relative;
+    text-align: center;
 }
 
 .main-article {
-    width: 60%;
+    width: 40%;
     height: 100%;
     position: relative;
     display: inline-flex;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
-.lateral-izq {
-    width: 20%;
+.lateral-izq,
+.lateral-der {
+    width: 30%;
     height: 100%;
-    background-color: lightgrey; 
     position: relative;
+    display: inline-flex;
+    
 }
 
+.lateral-izq img,
+.lateral-der img {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    object-fit:cover;
+}
+
+.ArtText{
+    text-align: justify;
+    position: absolute;
+    background-color: rgba(39, 174, 96,0.9);
+    padding: 50px 5px 25px 7px;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    top: 10%;
+    
+}
+
+
+.ArtTit {
+    width: 100%;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    text-decoration: underline;
+    text-align: center;
+    top: 12%;
+}
 
 .mainArtImg {
     width: 100%;
@@ -240,38 +272,44 @@ article {
 }
 
 .mainArtText{
-    width: 95.4%;
     text-align: justify;
     position: absolute;
-    background-color: rgba(71, 71, 135,0.6);
-    padding: 50px 10px 25px 10px;
+    background-color: rgba(71, 71, 135,0.9);
+    padding: 50px 5px 25px 7px;
     color: white;
     border-radius: 5px;
-    font-size: 21px;
+    font-size: 18px;
+   
 }
 
 
 .mainArtTit {
+    width: 100%;
     position: absolute;
-    left: 27%;
-    color: white;
-    font-size: 23px;
-    text-decoration: underline;
+    text-align: center;
     top: 2%;
+    color: white;
+    font-size: 19px;
+    text-decoration: underline;
+    
     
 }
 
 .linkvm {
     position:absolute;
-    top: 38%;
-    left: 80%;
-    font-size: 14px;
+    top: 90%;
+    left: 55%;
+    font-size: 16px;
     color:white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(44, 62, 80,0.95);
+    padding: 3px;
+    border-radius: 5px;
 }
 
 .linkvm:hover {
     color: yellow;
+    background-color: rgba(44, 62, 80,0.5);
 }
 
 /* FOOTER */
