@@ -13,7 +13,7 @@ body {
 
 header {
     width: 100%;
-    height: 90px;
+    height: 13%;
     background-image: url(./imatges/header\ art\ 3.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -106,7 +106,7 @@ header {
 
 .nav-elem li {
     width: 20%;
-    height: 25px;
+    height: 10%;
     background-color: lightgrey;
     color: black;
     font-weight: bold;
@@ -128,20 +128,22 @@ header {
 .destacats {
     display: inline-flex;
     width: 100%;
+    height: 25%;
     margin-top: 12px;
     position: relative;
+    
 
 }
 
 .art {
     width: 33%;
-    height: 130px;
+    height: 100%;
     position: relative;
 }
 
 .artmid {
     width: 33%;
-    height: 130px;
+    height: 100%;
     margin-left: 6px;
     margin-right: 6px;
     position: relative;
@@ -156,42 +158,37 @@ header {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: absolute;
     cursor: default;
-    top: 30px;
+    top: 30%;
 }
 
 .imgArt {
-    
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
     width: 100%;
     height: 100%;
     position: relative;
+    object-fit:cover;
 }
 
 
 
-.btncontainer .button {
+.btncontainer button {
+    
     color: black;
     background-color: whitesmoke;
-    font-size: 0.8em;
+    font-size: 16px;
     padding: 5px;
     border-style: solid;
     border-color: black;
     border-width: 1px;
-    text-decoration: none;
     cursor: pointer;
-    position:absolute;
-    top: 98px;
-    right: 100px;
-
+    border-radius: 5px;
 }
 
 .btncontainer {
     width: 100%;
-    top: 98px;
-    position: absolute ;
+    top: 80%;
+    position: absolute;
     text-align: center;
+
 }
 
 
@@ -202,13 +199,13 @@ header {
 }
 
 
-/*ARTÍCULOS*/
+/*ARTICLES*/
 
 
 article {
     display: inline-flex;
     width: 100%;
-    height: 450px;
+    height: 40%;
     margin-top: 12px;
     margin-bottom: 15px;
     position: relative;
@@ -224,49 +221,9 @@ article {
     margin-right: 5px;
 }
 
-.lateral-izq,
-.lateral-der {
-    width: 30%;
-    height: 100%;
-    position: relative;
-    display: inline-flex;
-    
-}
-
-.lateral-izq img,
-.lateral-der img {
-    width: 100%;
-    height: 450px;
-    position: relative;
-    object-fit:cover;
-}
-
-.ArtText{
-    text-align: justify;
-    position: absolute;
-    background-color: rgba(39, 174, 96,0.9);
-    padding: 50px 5px 25px 7px;
-    color: white;
-    border-radius: 5px;
-    font-size: 18px;
-    top: 10%;
-    
-}
-
-
-.ArtTit {
-    width: 100%;
-    position: absolute;
-    color: white;
-    font-size: 16px;
-    text-decoration: underline;
-    text-align: center;
-    top: 12%;
-}
-
 .mainArtImg {
     width: 100%;
-    height: 450px;
+    height: 100%;
     object-fit: cover;
     position: relative;
 }
@@ -278,7 +235,7 @@ article {
     padding: 50px 5px 25px 7px;
     color: white;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 14px;
    
 }
 
@@ -295,8 +252,50 @@ article {
     
 }
 
-.linkvm {
-    position:absolute;
+.lateral-izq,
+.lateral-der {
+    width: 30%;
+    height: 100%;
+    position: relative;
+    display: inline-flex;
+    
+}
+
+.lateral-izq img,
+.lateral-der img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit:cover;
+}
+
+.ArtText{
+    text-align: justify;
+    position: absolute;
+    background-color: rgba(39, 174, 96,0.9);
+    padding: 50px 5px 25px 7px;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+
+.ArtTit {
+    width: 100%;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    text-decoration: underline;
+    text-align: center;
+    top: 3%;
+}
+
+
+
+.linkcontainer button {
+    
     top: 90%;
     left: 55%;
     font-size: 16px;
@@ -305,9 +304,18 @@ article {
     background-color: rgba(44, 62, 80,0.95);
     padding: 3px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
-.linkvm:hover {
+.linkcontainer {
+    width: 100%;
+    position:absolute;
+    text-align: center;
+    top: 90%;
+    
+}
+
+.linkcontainer button:hover {
     color: yellow;
     background-color: rgba(44, 62, 80,0.5);
 }
@@ -315,8 +323,9 @@ article {
 /* FOOTER */
 
 .footer {
+    width: 100%;
     background-color: grey;
-    height: 40px;
+    height: 8%;
 }
 
 footer p {
