@@ -112,14 +112,14 @@ header {
 
 /* BARRA DE NAVEGACIÓN*/
 
-.nav-elem {
+.nav {
     display: inline-flex;
     width: 100%;
     list-style: none;
     font-family: 'Open Sans', sans-serif;
 }
 
-.nav-elem li {
+.nav-elem {
     width: 20%;
     height: 10%;
     background-color: lightgrey;
@@ -134,7 +134,7 @@ header {
     border-width: thin;
 }
 
-.nav-elem li:hover {
+.nav-elem:hover {
     background-color:rosybrown;
     color: seashell;
 }
